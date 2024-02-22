@@ -1,7 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+//tailwind directories^
 
+//Tailwind is a CSS framework that speeds up the developmmnt process by allowing you to quickly write "utility classes" directly from your TSX markup.
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
