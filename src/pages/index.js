@@ -11,8 +11,7 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello Im Kia, please read my{' '}
-          <Link href="/posts/first-post">blog!</Link>
+          Hello Im Kia, please read my <Link href="/posts/my-posts">blog!</Link>
         </p>
         <p>
           (This is a sample website - you&apos;ll be building a site like this
