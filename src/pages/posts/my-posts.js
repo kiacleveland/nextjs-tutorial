@@ -17,7 +17,7 @@ export default function myPosts() {
         Post <Link href="/posts/first-post">1</Link>
       </p>
       <p>
-        Post <Link href="/posts/first-post">2</Link>
+        Post <Link href="/posts/second-post">2</Link>
       </p>
     </Layout>
   );
