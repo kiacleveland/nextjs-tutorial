@@ -19,6 +19,9 @@ export default function myPosts() {
       <p>
         Post <Link href="/posts/second-post">2</Link>
       </p>
+      <p>
+        Post <Link href="/posts/third-post">3</Link>
+      </p>
     </Layout>
   );
 }

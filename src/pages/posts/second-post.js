@@ -12,8 +12,8 @@ export default function secondPost() {
         Second Post - When to use Static Generation v.s. Server Side Rendering
       </h1>
       <p>
-        See <Link href="/posts/first-post">previous post</Link> to learn about
-        Pre-Rendering options.
+        See the end of the <Link href="/posts/first-post">previous post</Link>{' '}
+        to learn about Pre-Rendering options.
       </p>
       <br></br>
       <p>
@@ -38,6 +38,10 @@ export default function secondPost() {
         Answer: Not a good idea if you cannot pre-render a page ahead of a
         user&apos;s request. Maybe your page shows frequently updated data, and
         the page content changes on every request.
+      </p>
+      <p>
+        So in tha case, server-side rendering would be best. It may be slower,
+        but the pre-rendered page will always be up-to-date.
       </p>
       <h2>
         Back to <Link href="/posts/my-posts">my posts</Link>
