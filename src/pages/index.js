@@ -22,7 +22,8 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello Im Kia, please read my <Link href="/posts/my-posts">blog!</Link>
+          Hello Im Kia, please read my{' '}
+          <Link href="/posts/my-posts">notes!</Link>
         </p>
         <p>
           (This is a sample website - you&apos;ll be building a site like this
